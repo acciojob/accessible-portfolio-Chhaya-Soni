@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header role="banner">
+        <h1>My Sample Web Page</h1>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#" role="link">Home</a></li>
+                <li><a href="#" role="link">About</a></li>
+                <li><a href="#" role="link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main role="main">
+        <section>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget odio ac arcu dignissim vehicula.</p>
+        </section>
+
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li role="listitem">Web Design</li>
+                <li role="listitem">Graphic Design</li>
+                <li role="listitem">Digital Marketing</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Information</h2>
+            <address>
+                <p>Email: <a href="mailto:info@example.com" role="link">info@example.com</a></p>
+                <p>Phone: <a href="tel:+123456789" role="link">+1 (234) 567-89</a></p>
+            </address>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2023 My Sample Web Page</p>
+    </footer>
+
+    <img src="https://images.unsplash.com/photo-1602964547811-466ac79138e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1399&q=80" alt="A beautiful landscape" role="img">
 </body>
-
 </html>
